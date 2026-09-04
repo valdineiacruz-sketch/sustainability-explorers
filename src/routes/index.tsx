@@ -130,12 +130,14 @@ function Index() {
             Produto Final · Projeto Integrador
           </p>
           <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-6xl">
-            Água - Cada gota conta.
-            <br />
-            Questão Motriz:
-            <br />
-            <br />
-            Se a água que usamos vai muito além do que vemos na torneira, como nossas escolhas de consumo impactam o planeta?
+            <span className="text-foreground">
+              Água - Cada gota conta.
+              <br />
+              Questão Motriz:
+              <br />
+              <br />
+              Se a água que usamos vai muito além do que vemos na torneira, como nossas escolhas de consumo impactam o planeta?
+            </span>
             <br />
             <br />
             Ciência que cabe em um pote de vidro
