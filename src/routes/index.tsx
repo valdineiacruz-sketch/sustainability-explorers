@@ -126,23 +126,23 @@ function Index() {
           aria-hidden="true"
         />
         <div className="relative mx-auto max-w-5xl px-6 py-20 text-foreground sm:py-28">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] opacity-90">
-            Produto Final · Projeto Integrador
-          </p>
-          <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-6xl">
-            <span className="text-foreground">
+          <div className="rounded-2xl border border-border bg-background/80 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] opacity-90">
+              Produto Final · Projeto Integrador
+            </p>
+            <h1 className="mt-5 text-3xl font-bold leading-[1.15] sm:text-4xl">
               Água - Cada gota conta.
               <br />
               Questão Motriz:
               <br />
               <br />
               Se a água que usamos vai muito além do que vemos na torneira, como nossas escolhas de consumo impactam o planeta?
-            </span>
-            <br />
-            <br />
+            </h1>
+          </div>
+          <p className="mt-8 text-4xl font-bold leading-[1.05] sm:text-6xl">
             Ciência que cabe em um pote de vidro
             <span className="block opacity-90">e em uma garrafa PET</span>
-          </h1>
+          </p>
           <p className="mt-6 max-w-2xl text-base leading-relaxed opacity-95 sm:text-lg">
             Dois projetos construídos pela turma do 1º ano A: um{" "}
             <strong>terrário</strong>, ecossistema fechado que reproduz o ciclo da água, e um{" "}
