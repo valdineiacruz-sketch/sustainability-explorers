@@ -130,6 +130,12 @@ function Index() {
             Produto Final · Projeto Integrador
           </p>
           <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-6xl">
+            Questão Motriz:
+            <br />
+            <br />
+            Se a água que usamos vai muito além do que vemos na torneira, como nossas escolhas de consumo impactam o planeta?
+            <br />
+            <br />
             Ciência que cabe em um pote de vidro
             <span className="block opacity-90">e em uma garrafa PET</span>
           </h1>
