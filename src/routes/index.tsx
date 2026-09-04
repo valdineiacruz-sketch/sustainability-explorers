@@ -125,12 +125,12 @@ function Index() {
           style={{ background: "var(--gradient-leaf)" }}
           aria-hidden="true"
         />
-        <div className="relative mx-auto max-w-5xl px-6 py-20 text-foreground sm:py-28">
-          <div className="rounded-2xl border border-border bg-background/80 p-6 shadow-[var(--shadow-soft)] sm:p-8">
+        <div className="relative mx-auto max-w-5xl px-6 py-20 text-primary-foreground sm:py-28">
+          <div className="rounded-2xl border border-primary-foreground/25 bg-primary-foreground/10 p-6 backdrop-blur-sm sm:p-8">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] opacity-90">
               Produto Final · Projeto Integrador
             </p>
-            <h1 className="mt-5 text-3xl font-bold leading-[1.15] sm:text-4xl">
+            <h1 className="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl">
               Água - Cada gota conta.
               <br />
               Questão Motriz:
@@ -139,7 +139,7 @@ function Index() {
               Se a água que usamos vai muito além do que vemos na torneira, como nossas escolhas de consumo impactam o planeta?
             </h1>
           </div>
-          <p className="mt-8 text-4xl font-bold leading-[1.05] sm:text-6xl">
+          <p className="mt-8 font-display text-4xl leading-[1.05] sm:text-6xl">
             Ciência que cabe em um pote de vidro
             <span className="block opacity-90">e em uma garrafa PET</span>
           </p>
