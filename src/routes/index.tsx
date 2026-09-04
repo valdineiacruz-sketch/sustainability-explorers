@@ -130,7 +130,7 @@ function Index() {
             Produto Final · Projeto Integrador
           </p>
           <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-6xl">
-            Àgua - Cada gota conta.
+            Água - Cada gota conta.
             <br />
             Questão Motriz:
             <br />
