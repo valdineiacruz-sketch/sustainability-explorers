@@ -92,7 +92,7 @@
     color-mix(in oklab, oklch(0.25 0.05 150) 82%, transparent),
     color-mix(in oklab, oklch(0.25 0.05 150) 55%, transparent)
   );
-  --gradient-leaf: linear-gradient(135deg, var(--primary), var(--water));
+  --gradient-leaf: linear-gradient(135deg, oklch(0.92 0.045 232), oklch(0.86 0.06 225));
   --shadow-soft: 0 18px 40px -22px color-mix(in oklab, oklch(0.3 0.06 150) 55%, transparent);
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "Karla", system-ui, sans-serif;
