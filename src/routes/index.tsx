@@ -125,7 +125,7 @@ function Index() {
           style={{ background: "var(--gradient-leaf)" }}
           aria-hidden="true"
         />
-        <div className="relative mx-auto max-w-5xl px-6 py-20 text-primary-foreground sm:py-28">
+        <div className="relative mx-auto max-w-5xl px-6 py-20 text-foreground sm:py-28">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] opacity-90">
             Produto Final · Projeto Integrador
           </p>
