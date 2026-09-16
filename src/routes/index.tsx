@@ -178,6 +178,7 @@ function Index() {
             <a href="#disciplinas" className="story-link">Disciplinas</a>
             <a href="#terrario" className="story-link">Terrário</a>
             <a href="#filtro" className="story-link">Filtro</a>
+            <a href="#destilacao" className="story-link">Destilação</a>
             <a href="#galeria" className="story-link">Galeria</a>
           </div>
         </div>
@@ -380,6 +381,82 @@ function Index() {
                 fervura ou cloração. Em uma escola do campo, entender esse processo é entender de
                 onde vem a água que usamos e por que preservá-la.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Destilação */}
+        <section id="destilacao" className="scroll-mt-16 bg-secondary/50 py-16 sm:py-24" aria-labelledby="d-titulo">
+          <div className="mx-auto max-w-5xl px-6">
+            <p className="reveal text-xs font-semibold uppercase tracking-[0.25em] text-primary">
+              Indo além da filtragem
+            </p>
+            <h2 id="d-titulo" className="reveal mt-3 text-3xl font-bold sm:text-4xl">
+              Destilação: separando a água do que está dissolvido nela
+            </h2>
+            <p className="reveal mt-4 max-w-3xl leading-relaxed text-muted-foreground">
+              O filtro caseiro retira as impurezas sólidas, mas existem substâncias — como sais e
+              outros sólidos dissolvidos — que passam por ele sem serem retidas. A{" "}
+              <strong>destilação</strong> é outro método de separação de misturas, capaz de obter
+              água quase pura: aquecemos a mistura até a água evaporar, e essa vapor encontra uma
+              superfície fria onde volta ao estado líquido. O que fica para trás é o resíduo; o que
+              escorre é o <strong>destilado</strong>, água muito mais pura do que a filtrada.
+            </p>
+
+            <ol className="mt-10 grid gap-5 sm:grid-cols-3">
+              {[
+                {
+                  n: "01",
+                  titulo: "Evaporação",
+                  texto:
+                    "A aquecer a água na balão ou no béquer, ela ferve e passa para o estado de vapor. Sais e impurezas dissolvidas não evaporam: ficam no recipiente.",
+                },
+                {
+                  n: "02",
+                  titulo: "Condensação",
+                  texto:
+                    "O vapor passa por um condensador (ou uma superfície fria, como gelo) e perde calor, voltando ao estado líquido — igual ao que acontece nas paredes do terrário.",
+                },
+                {
+                  n: "03",
+                  titulo: "Coleta do destilado",
+                  texto:
+                    "A água condensada é recolhida em outro recipiente. O resultado é a água destilada, usada em laboratório, em farmácias e até em ferros de passar.",
+                },
+              ].map((e, i) => (
+                <li
+                  key={e.n}
+                  className="reveal rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-transform hover:-translate-y-1"
+                  style={{ ["--reveal-delay" as string]: `${i * 120}ms` }}
+                >
+                  <span className="font-display text-4xl font-bold text-primary/30">{e.n}</span>
+                  <h3 className="mt-1 text-xl font-bold">{e.titulo}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{e.texto}</p>
+                </li>
+              ))}
+            </ol>
+
+            <div className="reveal mt-10 grid items-center gap-6 rounded-2xl border-l-4 border-primary bg-card p-7 shadow-[var(--shadow-soft)] sm:grid-cols-2">
+              <div>
+                <h3 className="text-xl font-bold">Filtrar, destilar e o ciclo da água</h3>
+                <p className="mt-3 leading-relaxed text-muted-foreground">
+                  Os três projetos conversam: o filtro mostra a <strong>filtração</strong>, a
+                  destilação mostra a <strong>mudança de estado</strong> separando misturas
+                  homogêneas, e o terrário reproduz o mesmo movimento da destilação em escala da
+                  natureza — o sol faz o papel do bico de Bunsen, e as nuvens fazem o papel do
+                  condensador. Ainda assim, a água destilada também não é água para beber sem
+                  tratamento: pura demais, ela não tem os sais minerais de que nosso corpo precisa.
+                </p>
+              </div>
+              <div className="rounded-xl border border-border bg-secondary/60 p-5 text-sm leading-relaxed text-muted-foreground">
+                <p className="font-semibold text-foreground">Na prática, na escola do campo</p>
+                <p className="mt-2">
+                  Entender a destilação ajuda a compreender por que a água da chuva precisa de
+                  tratamento, como funciona um alambique e por que estações de tratamento combinam
+                  vários métodos — filtração, decantação, cloração — para garantir água segura à
+                  comunidade.
+                </p>
+              </div>
             </div>
           </div>
         </section>
